@@ -1,0 +1,1 @@
+First, initialize the file structure of the project. Create an index file, a components folder, and an assets folder. Inside the components folder, include files for the header, footer, all functional code, and the configuration file. Additionally, create separate files for the project's sections, such as the Task Manager and Contact Us sections.
