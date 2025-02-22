@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $pageTitle; ?></title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/pages/about.php">About</a>
-            <a href="/pages/contact.php">Contact</a>
-        </nav>
-    </header>
+<header class="custom-header">
+    <div class="logo-container">
+        <img src="assets\images\logo.svg" alt="Logoipsum"  class="logo">
+    </div>
+    <nav class="nav-menu">
+        <a href="#">Products</a>
+        <a href="#">Solutions</a>
+        <a href="#">Help center</a>
+        <a href="#">Get started</a>
+    </nav>
+    <div class="auth-buttons">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="request-demo">Request a demo</a>
+    </div>
+</header>
